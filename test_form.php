@@ -26,7 +26,7 @@
         Date of birth:<br> <input type="number" name="dateof" id="" placeholder="31/01/2000" required> <br><br>
         Phone:<br> <input type="number" name="phone" id="" placeholder="Phone" required> <br><br>
         Email(optinal) :<br> <input type="email" name="email" id="" placeholder="Email" > <br><br>
-
+        <input type="submit" name="submit" value="Submit">
     </form>
 </div>
 
