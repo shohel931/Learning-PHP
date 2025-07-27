@@ -9,5 +9,14 @@
     
 <h1 style="text-align: center;">Welcome</h1>
 
+<div class="form_area">
+    Name: 
+    Father's Name:
+    Mother's Name:
+    Date of birth:
+    Phone:
+    Email:
+</div>
+
 </body>
 </html>
