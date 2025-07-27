@@ -21,8 +21,11 @@
 <div class="form_area">
     <form action="welcome.php" method="POST">
         Name: <input type="text" name="name" id="" placeholder="Name" required><br><br>
+        Father's Name: <input type="text" name="fname" id="" placeholder="Father's Name" required><br><br>
+        Mother's Name: <input type="text" name="name" id="" placeholder="Mother's Name" required><br><br>
         Email: <input type="email" name="email" id="" placeholder="Email" required> <br><br>
-        Phone: <input type="number" name="phone" id="" placeholder="Phone" required>
+        Phone: <input type="number" name="phone" id="" placeholder="Phone" required> <br><br>
+
     </form>
 </div>
 
