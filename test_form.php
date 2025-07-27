@@ -1,5 +1,12 @@
 <?php 
-
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $name = htmlspecialchars($_POST['name']);
+    $fname = htmlspecialchars($_POST['fname']);
+    $mname = htmlspecialchars($_POST['mname']);
+    $age = htmlspecialchars($_POST['age']);
+    $phone = htmlspecialchars($_POST['phone']);
+    $email = htmlspecialchars($_POST['email']);
+}
 
 
 
@@ -22,8 +29,8 @@
     <form action="welcome.php" method="POST">
         Name: <br> </Name:br> <input type="text" name="name" id="" placeholder="Name" required><br><br>
         Father's Name:<br> <input type="text" name="fname" id="" placeholder="Father's Name" required><br><br>
-        Mother's Name:<br> <input type="text" name="name" id="" placeholder="Mother's Name" required><br><br>
-        Date of birth:<br> <input type="number" name="dateof" id="" placeholder="31/01/2000" required> <br><br>
+        Mother's Name:<br> <input type="text" name="mname" id="" placeholder="Mother's Name" required><br><br>
+        Date of birth:<br> <input type="number" name="age" id="" placeholder="31/01/2000" required> <br><br>
         Phone:<br> <input type="number" name="phone" id="" placeholder="Phone" required> <br><br>
         Email(optinal) :<br> <input type="email" name="email" id="" placeholder="Email" > <br><br>
         <input type="submit" name="submit" value="Submit">
